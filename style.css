@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -34,18 +34,3 @@ img {
     width: 276px !important;
     height: 276px;
 }
-
-/* div.player-card, div.team-card {
-    width: 50%;
-    text-align: center;
-    padding: 12px;
-    margin: 5px;
-    background-color: rgba(76, 184, 142, 0.247);
-    border: 1px solid rgba(65, 158, 122, 0.247);
-    border-radius: 15px;
-}
-
-div.player-card:hover, div.team-card:hover {
-    background-color: rgba(45, 139, 103, 0.247);
-    border: 1px solid rgba(32, 85, 65, 0.247);
-}  */
