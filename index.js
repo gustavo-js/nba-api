@@ -26,7 +26,6 @@ $(() => {
         $.ajax(`${API_URL}/${resource}`, {
             type: 'GET',
             success: callback,
-            error: alert
         })
     }
 

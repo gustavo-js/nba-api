@@ -43,13 +43,11 @@ $(() => {
         $.ajax(`${API_URL}/${resource}`, {
             type: 'GET',
             success: callback,
-            error: alert
         })
     }
 
     let param = window.location.search.substring(1);
     if(param){
-        debugger;
         fetchApi(`teams/${param.replace("id=", "")}}`, renderTeam);
     }
     else{
